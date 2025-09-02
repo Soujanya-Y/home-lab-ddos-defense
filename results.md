@@ -22,7 +22,7 @@
 
 
 
-[View Firewall Log Screenshot](./FW_P_DDOS_Log.png)
+[View Firewall Log Screenshot](./Tcp_syn_flood_Firewall_Block_logs)
 
 ## 4. Observations
 - Firewall rules captured the ICMP and UDP floods before Suricata had a chance to evaluate.
