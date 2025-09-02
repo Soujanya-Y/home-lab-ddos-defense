@@ -6,10 +6,10 @@ This document describes the network design of the home lab used for simulating a
 
 ## Network Diagram
 
-   [External Network]
-       |
-   Kali Linux (Attacker)
-       |
-   [ pfSense Firewall ]
-       |
-   Linux Mint (Target)
+[ External Network ]
+        |
+  Kali Linux (Attacker)
+        |
+[ pfSense Firewall ]
+        |
+ Linux Mint (Target)
