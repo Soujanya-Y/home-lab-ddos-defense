@@ -17,7 +17,7 @@
 **Figure 1:** Suricata alert showing TCP SYN flood blocked from source IP 10.0.2.15.  
 *(Insert screenshot)*
 
-**Table 1:** Firewall log snippet showing blocked ICMP and UDP packets at timestamp 2025‑08‑31 14:05.
+**Table 1:** Firewall log snippet showing blocked ICMP packets
 
 [View Firewall Log Screenshot](./FW_P_DDOS_Log.png)
 
