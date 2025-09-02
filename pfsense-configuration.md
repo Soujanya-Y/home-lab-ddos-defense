@@ -14,7 +14,7 @@ This document describes how pfSense was configured to detect and block simulated
 | Role              | IP Address     | Description              |
 |-------------------|----------------|--------------------------|
 | Attacker (Kali)   | 10.0.2.15      | External source of attack traffic |
-| pfSense WAN       | 10.0.2.1       | External interface (connected to attacker) |
+| pfSense WAN       | 10.0.2.4       | External interface (connected to attacker) |
 | pfSense LAN       | 192.168.1.1    | Internal interface (connected to target) |
 | Target (Linux Mint)| 192.168.1.100 | Internal victim machine |
 
