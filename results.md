@@ -9,7 +9,7 @@
 | Attack Type       | Blocked? | Detection Tool    | Notes                                  |
 |-------------------|----------|-------------------|----------------------------------------|
 | ICMP Flood        | Yes      | pfSense Firewall  | Block rule activated immediately       |
-| TCP SYN Flood     | Yes      | Suricata (IPS)    | Alert shown; traffic dropped inline    |
+| TCP SYN Flood     | Yes      | pfSense Firewall  | Alert shown; traffic dropped inline    |
 
 
 ## 3. Evidence & Visuals
