@@ -26,15 +26,7 @@
 - Suricata’s inline mode effectively intercepted the TCP SYN flood.
 - No alerts or system load spikes detected on the target machine.
 
-## 5. Appendices
-- **Appendix A:** Full Suricata alert logs (`/logs/suricata_alerts.log`)
-- **Appendix B:** Complete firewall logs (`/logs/pfsense_firewall.log`)
-- **Appendix C:** Screenshots of pfSense UI configuration (`/screenshots/`)
-
 ---
 
-### Why This Structure Works
-- The **Results section** remains objective—just what happened and how you captured it.
-- Visual aids help readers grasp outcomes at a glance.:contentReference[oaicite:1]{index=1}
-- Linking to appendices keeps the main document clean, with detail available for deeper review.:contentReference[oaicite:2]{index=2}
+
 
