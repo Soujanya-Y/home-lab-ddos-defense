@@ -7,11 +7,11 @@ This document describes the network design of the home lab used for simulating a
 ## Network Diagram
 
 ```
-[ External Network ]
+  External Network 
         |
   Kali Linux (Attacker)
         |
-[ pfSense Firewall ]
+  pfSense Firewall 
         |
- Linux Mint (Target)
+  Linux Mint (Target)
 ```
