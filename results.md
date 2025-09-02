@@ -1,7 +1,7 @@
 # Results
 
 ## 1. Summary of Results
-- The simulated DDoS attacks were automatically detected and blocked by pfSense and Suricata.
+- The simulated DDoS attacks were automatically detected and blocked by pfSense.
 - The internal target (Linux Mint) remained fully responsive with no packet reach.
 
 ## 2. Attack Outcomes
@@ -10,7 +10,7 @@
 |-------------------|----------|-------------------|----------------------------------------|
 | ICMP Flood        | Yes      | pfSense Firewall  | Block rule activated immediately       |
 | TCP SYN Flood     | Yes      | Suricata (IPS)    | Alert shown; traffic dropped inline    |
-| UDP Flood         | Yes      | pfSense Firewall  | UDP rule blocked the traffic           |
+
 
 ## 3. Evidence & Visuals
 
@@ -21,8 +21,7 @@
 [View Firewall Log Screenshot_TCP_SYN](./Tcp_syn_flood_Firewall_Block_logs.png)
 
 ## 4. Observations
-- Firewall rules captured the ICMP and UDP floods before Suricata had a chance to evaluate.
-- Suricata’s inline mode effectively intercepted the TCP SYN flood.
+- Firewall rules captured the ICMP and TCP SYN floods.
 - No alerts or system load spikes detected on the target machine.
 
 ---
