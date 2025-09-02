@@ -18,10 +18,6 @@
 [View Firewall Log Screenshot_ICMP](./FW_P_DDOS_Log.png)
 
 **Figure 2:** pfSense alert showing TCP SYN flood blocked from source IP 10.0.2.15.  
-[View Firewall Log Screenshot_TCP_SYN](./FW_P_DDOS_Log.png)
-
-
-
 [View Firewall Log Screenshot](./Tcp_syn_flood_Firewall_Block_logs)
 
 ## 4. Observations
