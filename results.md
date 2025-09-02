@@ -19,7 +19,7 @@
 
 **Table 1:** Firewall log snippet showing blocked ICMP and UDP packets at timestamp 2025‑08‑31 14:05.
 
-![Firewall Log Screenshot](./Firewall_ping DDOS_attack.png)
+- [Firewall Log Screenshot](Firewall_ping DDOS_attack.png)
 
 ## 4. Observations
 - Firewall rules captured the ICMP and UDP floods before Suricata had a chance to evaluate.
