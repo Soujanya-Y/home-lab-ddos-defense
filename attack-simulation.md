@@ -11,8 +11,8 @@ To simulate a basic Distributed Denial of Service (DDoS) attack from an external
 | Component       | Role          | IP Address     |
 |----------------|---------------|---------------- |
 | Kali Linux      | Attacker      | 10.0.2.15      |
-| pfSense WAN     | Gateway (ext) | 192.168.1.1    |
-| pfSense LAN     | Gateway (int) | 10.0.2.4       |
+| pfSense WAN     | Gateway (ext) | 10.0.2.4       |
+| pfSense LAN     | Gateway (int) | 192.168.1.1    |
 | Linux Mint      | Target        | 192.168.1.100  |
 
 ---
@@ -28,4 +28,5 @@ This attack floods the target with ICMP Echo Request packets (ping), consuming n
 ```bash
 
 hping3 --icmp --flood -d 120 192.168.1.100
+
 
