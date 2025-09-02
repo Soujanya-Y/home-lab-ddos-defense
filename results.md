@@ -18,7 +18,7 @@
 [View Firewall Log Screenshot_ICMP](./FW_P_DDOS_Log.png)
 
 **Figure 2:** pfSense alert showing TCP SYN flood blocked from source IP 10.0.2.15.  
-[View Firewall Log Screenshot](./Tcp_syn_flood_Firewall_Block_logs)
+[View Firewall Log Screenshot_TCP_SYN](./Tcp_syn_flood_Firewall_Block_logs.png)
 
 ## 4. Observations
 - Firewall rules captured the ICMP and UDP floods before Suricata had a chance to evaluate.
