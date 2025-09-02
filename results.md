@@ -14,10 +14,13 @@
 
 ## 3. Evidence & Visuals
 
-**Figure 1:** Suricata alert showing TCP SYN flood blocked from source IP 10.0.2.15.  
-*(Insert screenshot)*
+**Figure 1:** pfSense alert showing ICMP flood blocked from source IP 10.0.2.15.  
+[View Firewall Log Screenshot_ICMP](./FW_P_DDOS_Log.png)
 
-**Table 1:** Firewall log snippet showing blocked ICMP packets
+**Figure 2:** pfSense alert showing TCP SYN flood blocked from source IP 10.0.2.15.  
+[View Firewall Log Screenshot_TCP_SYN](./FW_P_DDOS_Log.png)
+
+
 
 [View Firewall Log Screenshot](./FW_P_DDOS_Log.png)
 
